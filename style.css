@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: rgb(68, 65, 65);
+    padding: 0px 5px 5px 5px;
+}
+#logo {
+    display: block;
+    align-content: center;
+}
+
+#search {
+    display: block;
+    padding: 20px 20px 20px 200px;
+}
+
+#buttons {
+
+}
