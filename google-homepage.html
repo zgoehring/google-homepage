@@ -8,27 +8,31 @@
 </head>
 
 <body>
-    <ul>
-        <li><a href="#About">About</a></li>
-        <li><a href="#News">Store</a></li>
-    </ul>
-
-    <ul>
-        <li><a href="#Gmail">Gmail</a></li>
-        <li><a href="#Images">Images</a></li>
-    </ul>
-    
-    <div id="logo">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <div id="left-nav">
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Store">Store</a></li>
+        </ul>
     </div>
 
-    <div id="search">
-        <input type="text">
+    <div id="right-nav">
+        <ul>
+            <li><a href="#Gmail">Gmail</a></li>
+            <li><a href="#Images">Images</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+
+    <div>
+        <input class="search" type="text">
     </div>
     
-    <div id="buttons">
-        <input type="button" value="Google Search">
-        <input type="button" value="I'm Feeling Lucky">
+    <div id="buttons" style="text-align:center;">
+            <button class="GS-button">Google Search</button>
+            <input type="button" value="I'm Feeling Lucky">
     </div>
 
 </body>
